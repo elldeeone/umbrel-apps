@@ -1,0 +1,21 @@
+manifestVersion: 1
+id: kas-rusty-node
+category: finance
+name: Kaspa Rusty Node
+version: "3.3.0"
+tagline: Simple, Kaspa Rusty Node
+description: >-
+  BTC RPC Explorer is a full-featured, self-hosted Kaspa Rusty node.
+releaseNotes: >-
+developer: Test
+website: https://test.org
+dependencies:
+repo:
+support:
+port:
+gallery:
+path: ""
+defaultUsername: ""
+defaultPassword: ""
+submitter:
+submission:

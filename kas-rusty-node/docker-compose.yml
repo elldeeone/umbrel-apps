@@ -1,0 +1,15 @@
+version: "3"
+
+services:
+  kaspad:
+    container_name: kaspad
+    image: supertypo/kaspad:latest
+    restart: unless-stopped
+    ports:
+      - "16110:16110/tcp"
+      - "16111:16111/tcp"
+    volumes:
+      - kaspad:/app/data/
+
+volumes:
+  kaspad:
